@@ -43,6 +43,26 @@ const Model = () => {
         max-camera-orbit="55deg 120deg auto"
         tone-mapping="commerce"
       ></model-viewer>
+
+       {/* Barn Painting */}
+       <model-viewer
+        src="/Barn.glb"
+        ios-src="/Barn.usdz"
+        orientation="90deg 0deg 90deg"
+        poster="/Barn.jpg"
+        alt="A 3D model of an astronaut"
+        shadow-intensity="0"
+        camera-controls
+        ar
+        ar-placement="wall"
+        disable-pan
+        skybox-image="/Owl.jpg"
+        exposure="4"
+        touch-action="pan-y"
+        min-camera-orbit="-55deg 45deg auto"
+        max-camera-orbit="55deg 120deg auto"
+        tone-mapping="commerce"
+      ></model-viewer>
     </div>
    
   );
